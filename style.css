@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+body{
+  display: block;
+  color: #6d0091;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  background-color: #f7f3f2;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 5rem;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#header-img{
+  display: block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  height:4rem;
+}
+
+nav ul {
+  position: fixed;
+  background-color: #F9DBD2;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height:4rem;
+}
+
+.nav-item {
+  display: inline;
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  padding: 1.5rem 1rem;
+  height:4rem;
+  color: #6d0091;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+#banner{
+  height:12rem;
+}
+
+section{
+  padding-top: 3rem;
+  display: grid;
+}
+
+#features{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#pricing{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
